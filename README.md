@@ -2,9 +2,6 @@
 
 A command-line, keyboard-centric solitaire game written in TypeScript.
 
-
-### Interface
-
 ```
   f1 f2 f3 f4
   __ __ __ __
@@ -47,8 +44,9 @@ Where:
 
 `from` and `to` can be:
 - `t1`, `t2`, ..., `t7` for tableau columns 1 to 7
-- `f1`, `f2`, ..., `f4` for foundation
-- `w` for waste (only for moving from waste)
+- `f1`, `f2`, ..., `f4` for moving `from` foundation
+- `f` for foundation (only for moving `to` a suitable foundation)
+- `w` for waste (only for moving `from` waste)
 
 #### Examples
 
