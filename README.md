@@ -83,6 +83,12 @@ Moving to foundation is handled automatically, meaning any suitable or free foun
 
 `wf` -- move 1 card from the waste to a suitable or free foundation
 
+#### Colon commands
+
+`:q` -- quit the game
+
+`:u` -- undo the last move
+
 
 ### Notes
 
