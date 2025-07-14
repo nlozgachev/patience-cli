@@ -40,10 +40,14 @@ while (true) {
 
     case '\x1b': // Escape
       commandBuffer = '';
+      inputMode = 'normal';
       break;
 
     case '\x7f': // Backspace
       commandBuffer = commandBuffer.slice(0, -1);
+      if (commandBuffer === '') {
+        inputMode = 'normal';
+      }
       break;
 
     case ':':
